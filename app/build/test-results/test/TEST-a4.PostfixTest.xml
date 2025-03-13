@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="a4.PostfixTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-03-12T23:33:43" hostname="codespaces-cab6ec" time="0.094">
+  <properties/>
+  <testcase name="testPostfixSingle" classname="a4.PostfixTest" time="0.035"/>
+  <testcase name="testPostfixCombo" classname="a4.PostfixTest" time="0.021"/>
+  <testcase name="testPostfixMinus" classname="a4.PostfixTest" time="0.011"/>
+  <testcase name="testPostfixTimes" classname="a4.PostfixTest" time="0.006"/>
+  <testcase name="testPostfixThrowsException" classname="a4.PostfixTest" time="0.001"/>
+  <testcase name="testPostfixDiv" classname="a4.PostfixTest" time="0.005"/>
+  <testcase name="testPostfixPlus" classname="a4.PostfixTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
