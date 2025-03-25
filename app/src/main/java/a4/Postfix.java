@@ -28,6 +28,10 @@ public class Postfix {
                     Double second = stack.pop();
                     stack.push(stack.pop()/second);
                 }
+                else if (t.equals('^')){
+                    Double second = stack.pop();
+                    stack.push( Math.pow(stack.pop(),second) );
+                }
             }            
         }
         if (stack.size() != 1){
