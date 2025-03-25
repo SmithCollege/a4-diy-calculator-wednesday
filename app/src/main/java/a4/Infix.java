@@ -35,20 +35,22 @@ public class Infix {
                     stack.push(t);
                 }
             }
-            //debugging help delete later
+            //*debugging help delete later
             System.out.println(queue);
             System.out.println(stack);
             System.out.println();
+            //*/
         }
         while (stack.size() > 0) {
             if (stack.peekFirst().equals('(')){
                 throw new IllegalArgumentException();
             }
             queue.add(stack.pop());
-            //debugging help delete later
+            //*debugging help delete later
             System.out.println(queue);
             System.out.println(stack);
             System.out.println();
+            //*/
         }
         return Postfix.postfix(queue);
     }
@@ -60,7 +62,7 @@ public class Infix {
         if (c.equals('*') || c.equals('/')){
             return 3;
         }
-        if (c.equals('*') || c.equals('/')){
+        if (c.equals('+') || c.equals('-')){
             return 2;
         }
         return 0;
